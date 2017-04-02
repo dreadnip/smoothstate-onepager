@@ -1,0 +1,20 @@
+title: Bureau
+
+pages: false
+
+fields:
+
+  inhoud:
+    label: Inhoud
+    type: structure
+    entry: >
+      <strong>{{title}}</strong><br>
+      {{description}}<br>
+    fields:
+      title:
+        label: Titel
+        type: text
+      description:
+        label: Inhoud
+        type: textarea
+        size: large

@@ -1,0 +1,18 @@
+title: Home
+
+pages: false
+
+fields:
+  title:
+    label: Title
+    type:  text
+
+  cover:
+    label: Uitgelichte afbeelding
+    type:  image
+    size:  small
+
+  description:
+    label: Onderschrift
+    type:  text
+    size:  small

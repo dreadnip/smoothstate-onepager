@@ -1,0 +1,23 @@
+title: Api
+
+pages: false
+files: false
+
+options:
+  preview: true
+  status: false
+  template: false
+  url: false
+  delete: false
+
+fields:
+  protected:
+    label: Api
+    type:  info
+    text: >
+      Beste gebruiker,
+  
+    
+      Deze pagina zorgt voor het correct ophalen en weergeven van de verschillende foto's op de project pagina's van de website. 
+
+      Gelieve deze pagina niet aan te passen.

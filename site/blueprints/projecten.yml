@@ -1,0 +1,16 @@
+title: Projecten
+
+files: false
+
+pages:
+  template: project
+
+options: 
+  template: false  
+  status: false  
+  url: false  
+
+fields:
+  title:
+    label: Title
+    type:  text

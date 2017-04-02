@@ -1,0 +1,26 @@
+title: Project
+
+files:
+  sortable: true
+
+pages: false
+
+fields:
+  title:
+    label: Titel
+    type:  text
+    width: 3/4
+
+  year:
+    label: Jaar
+    type:  text
+    width: 1/4
+
+  location:
+    label: Locatie
+    type:  text
+    width: 2/4
+
+  text:
+    label: Tekst
+    type:  textarea

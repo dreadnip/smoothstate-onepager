@@ -1,0 +1,585 @@
+@charset "UTF-8";
+
+/* -----  1.2 Reset & Normalization  ---------------------------------------- */
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, main, menu, nav, section, summary {
+  /* Add correct display for IE 9- and some newer browsers */
+  display: block;
+}
+
+::-moz-selection {
+  background: #71efac;
+  color: #261e66;
+}
+
+::selection {
+  background: #71efac;
+  color: #261e66;
+}
+
+/* -----  1.3 General Typography  ------------------------------------------- */
+
+h1, h2, h3, h4, h5, h6,
+p, ul, ol, figure, pre {
+  /* Reset font-sizes and normalize margins */
+  font-size: inherit;
+  line-height: inherit;
+  margin: 0 0 1.5rem;
+}
+
+/* Headings */
+h1, h2, h3 {
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 700;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 1.25;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+h2 {
+  font-size: 1.75rem;
+  line-height: 2.2rem;
+  text-align: center;
+}
+
+h3 {
+  font-size: 1.25em;
+  line-height: 1.2;
+}
+
+h4 {
+  font-size: 1em;
+}
+
+/* Links */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover, a:focus, a:active {
+  color: #000;
+}
+
+i, em {
+  /* Vesper Libre does not have Italics,
+     so we use a the *medium* weight instead */
+  font-weight: 500;
+  font-style: normal;
+}
+
+b, strong {
+  font-weight: 700;
+}
+
+mark {
+  padding: .1em .05em;
+  margin: -.1em 0;
+  color: #261e66;
+  background: #eafded;
+}
+
+/* -----  1.4 Images & Figures  --------------------------------------------- */
+
+
+
+/* =====  2 Layout Helpers & Reusable Components  =========================== */
+
+/* The Clearfix™: A classic … */
+.cf::after {
+  content: "";
+  display: block;
+  height: 0;
+  overflow: hidden;
+  clear: both;
+}
+
+/* ===================================================
+=================== BASIC LAYOUT =====================
+=================================================== */
+
+body {
+  font-family: Helvetica;
+  font-size: 13px;
+  font-weight: 300;
+  overflow: hidden;
+}
+
+header {
+  width:100%;
+  height:20vh;
+  justify-content: center;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+}
+
+header a {
+  display:block;
+  text-align: center;
+  width: 300px;
+  margin-bottom: 5px;
+}
+
+footer {
+  width:100%;
+  height:20vh;
+  justify-content: center;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+}
+
+
+footer p {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.side {
+  height:60vh;
+  width:25%;
+  float:left;
+  justify-content: center;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+}
+
+.center {
+  height:60vh;
+  width:50%;
+  float:left;
+  text-align:center;
+}
+
+.align_wrapper {
+  height:60vh;
+  width:100%;
+  justify-content: center;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+}
+
+.align_wrapper img {
+  max-height:100%;
+  max-width: 100%;
+}
+
+.site_title {
+  font-size:13px;
+  font-weight:300;
+}
+
+.site_subtitle {
+  font-size:13px;
+  font-weight:300;
+}
+
+.footer_content_m {
+  display: none;
+}
+
+/* ===================================================
+=================== BUREAU PAGE ======================
+=================================================== */
+
+.bureau_box {
+  position:relative;
+  margin:0 auto;
+  text-align:center;
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.bureau_box span {
+  text-decoration:underline;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.bureau_box p {
+  justify-content: center;
+  max-width: 400px;
+  margin:0 auto 20px auto;
+  line-height: 1.5em;
+}
+
+/* Scrollbar styles */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  border: none;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: gray;  
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: gray;  
+}
+
+.subnav {
+  height: 20px;
+  width: 80%;
+  justify-content: center;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+
+.subnav ul li {
+  float:left;
+  padding:0 25px;
+}
+
+.subnav a.active, .subnav a:hover {
+  text-decoration: underline;
+}
+
+/* ===================================================
+=================== PROJECT PAGE =====================
+=================================================== */
+
+.project_img {
+  
+}
+
+.project_text {
+  width: 100%;
+  height: 95%;
+  display:none;
+  overflow-y: scroll;
+  text-align: left;
+}
+
+.button_container {
+  width: 100%;
+  height: 20px;
+  margin: 0 auto;
+}
+
+.btn-txt, .btn-img {
+  float: left;
+}
+
+.btn-img {
+  display:none;
+}
+
+.img_counter {
+  float:right;
+}
+
+.project_footer {
+  padding-top:20px;
+}
+
+/* ===================================================
+=================== PAGE TRANSITIONS =================
+=================================================== */
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes moveInFromLeft {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(-100px);
+        transform: translateX(-100px);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+@keyframes moveInFromLeft {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(-100px);
+        transform: translateX(-100px);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+@-webkit-keyframes moveOutToLeft {
+    0% {
+        opacity: 1;
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+    100% {
+        opacity: 0;
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+    }
+}
+
+@keyframes moveOutToLeft {
+    0% {
+        opacity: 1;
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+    100% {
+        opacity: 0;
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+    }
+}
+
+@-webkit-keyframes moveInFromRight {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(100px);
+        transform: translateX(100px);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+@keyframes moveInFromRight {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(100px);
+        transform: translateX(100px);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+@-webkit-keyframes moveOutToRight {
+    0% {
+        opacity: 1;
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+    100% {
+        opacity: 0;
+        -webkit-transform: translateX(50%);
+        transform: translateX(50%);
+    }
+}
+
+@keyframes moveOutToRight {
+    0% {
+        opacity: 1;
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+    100% {
+        opacity: 0;
+        -webkit-transform: translateX(50%);
+        transform: translateX(50%);
+    }
+}
+
+.sceneElement {
+    -webkit-animation-duration: .4s;
+    animation-duration: .4s;
+    transition-timing-function: ease-in;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    width: 100%;
+    height: 100%;
+}
+
+.is-exiting .sceneElement {
+    transition-timing-function: ease-out;
+}
+
+#main[data-transition=fade] .sceneElement {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+}
+
+#main[data-transition=fade].is-exiting .sceneElement {
+    -webkit-animation-name: fadeOut;
+    animation-name: fadeOut;
+}
+
+#main[data-transition=moveleft] .sceneElement {
+    -webkit-animation-name: moveInFromLeft;
+    animation-name: moveInFromLeft;
+}
+
+#main[data-transition=moveleft].is-exiting .sceneElement {
+    -webkit-animation-name: moveOutToRight;
+    animation-name: moveOutToRight;
+}
+
+#main[data-transition=moveright] .sceneElement {
+    -webkit-animation-name: moveInFromRight;
+    animation-name: moveInFromRight;
+}
+
+#main[data-transition=moveright].is-exiting .sceneElement {
+    -webkit-animation-name: moveOutToLeft;
+    animation-name: moveOutToLeft;
+}
+
+/* ===================================================
+=================== Media Queries ====================
+=================================================== */
+
+/* Larger than mobile */
+@media (min-width: 400px) {}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {}
+
+/* Larger than tablet */
+@media (min-width: 750px) {}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}
+
+@media (min-width: 765px) {
+  #mobile-body-footer-txt {
+    display: none;
+  }
+}
+
+@media (max-width: 765px) {
+
+  header {
+    height:30vh;
+  }
+
+  footer {
+    height:30vh;
+  }
+
+  .side {
+    display: none;
+  }
+
+  .center{
+    height: 40vh;
+    width:100%;
+  }
+
+  .align_wrapper {
+    max-height: 40vh;
+  }
+  
+  .center img {
+    width: 100%;
+    height: auto;
+  }
+
+  .footer_content {
+    display: none;
+  }
+
+  .footer_content_m {
+    display: block;
+  }
+
+  .subnav {
+    height: 100%;
+    width: 100%;
+  }
+
+  .subnav ul {
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+  }
+
+  .subnav ul li {
+    width: 100%;
+    height: 25px;
+    margin-bottom: 5px;
+    text-align:center;
+  }
+
+  .subnav a {
+    float:none;
+    padding: 0px;
+  }
+
+}

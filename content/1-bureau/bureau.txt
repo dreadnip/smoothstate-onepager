@@ -1,0 +1,110 @@
+Title: Bureau
+
+----
+
+Inhoud: 
+
+- 
+  title: CONTACT
+  description: |
+    KANTOOR
+    
+    Demostraat 11
+    9000 Gent
+    demo@demo-naam.be
+    T +32 9 503 05 71
+    
+    FACTURATIE & MAATSCHAPPELIJKE ZETEL
+    
+    Demo Achterlaan 222
+    9000
+    Gent
+- 
+  title: MISSIE
+  description: 'Architectenbureau Demo Naam is een bureau dat sterk inzet op de samenhang tussen het architecturaal ontwerp en de sociaal-ruimtelijke inbedding in de omgeving. We zijn ons hierbij bewust van onze rol als ontwerpers binnen maatschappelijke randvoorwaarden en binnen de (architectuur)geschiedenis. We ontwerpen niet volgens dogma’s maar wel vanuit een analytische attitude. Zo behouden we een zekere afstand die we noodzakelijk achten om de complexe vragen die in een ontwerpproces opduiken nuchter te kunnen evalueren. Elk project start vanuit een zorgvuldige en kritische beschouwing van de context. Hieruit vloeien de krijtlijnen voor de architectuur en de openbare ruimte rondom het (nieuwe) gebouw. Dit betekent echter niet dat projecten op een zuiver rationele manier aangepakt worden. In het proces laten we voldoende ruimte voor poëzie, het irrationele en onverklaarbare, deze doorbreken de nuchterheid van het totaalplan en vullen het aan Zo werken we aan een oeuvre van niet momentgebonden architectuur. Onze coherente houding resulteert uiteindelijk in steeds weer andere vormen, verhoudingen en relaties. Hierbij tasten we graag grenzen af en zijn we niet schuw om de dingen vanuit een verdraaid standpunt te bekijken. Dit verleent onze architectuur de nodige autonomie en resistentie ten opzichte van haar voortdurend veranderende omgeving. We streven naar een architectuur als bouwkunst. Enerzijds dus de kunst en kunde van het bouwen, anderzijds de kunstzinnige benadering van het bouwen. Ons bureau kenmerkt zich dan ook door samenwerkingen met kunstenaars, grafische vormgevers,... Die samensmelting van architectuur met de haar verwante vakgebieden stedenbouw, stabiliteit, technieken en kunst is voor ons van groot belang. We zijn ervan overtuigd dat zo projecten afgeleverd worden die aan het tijdloze geraken zonder afbreuk te doen aan de huidige – tijdelijke – wensen. Doorheen het ontwerp- en bouwproces stellen we ons ‘dienstbaar’ op. De dienstbare ontwerper zien wij niet noodzakelijk als een volgzame ontwerper maar als een ontwerper die zich bewust is van zijn rol als vormgever binnen een maatschappelijke ruimte. Aangezien gebouwen bewoond worden is architectuur per definitie een sociale aangelegenheid. Onze ontwerpen zien we dan ook graag als sociale ankerplaatsen die de cohesie van de samenleving bevorderen. Een welgekomen gegeven in de huidige architectuurcultuur waar de gebruikers steeds vaker lijken vergeten te worden.'
+- 
+  title: TEAM
+  description: |
+    Demo Naam (°1970)
+    Architect - Hoger Architectuurinstituut Sint-Lucas Gent (1989 - 1994)
+    Master in de Stedenbouw en Ruimtelijke Planning Sint-Lucas Gent (2005-2009)
+    Stage bij sociale huisvestingsmaatschappij De Gentse Maatschappij voor Huisvesting te Gent (1994-1995)
+    Medewerker bij Architectenbureau Patrick Lefebure te Gent (1995-1998)
+    Medewerker bij Viérin Architecten te Brugge (1998-2002)
+    Freelance medewerker bij noA-architecten te Brugge (2001-2002)
+    Oprichting Dial-architects en samen met G. Pauwels leidinggevend architect (1999-2008)
+    Oprichting Architectenbureau Demo Naam te Gent (2008)
+    Master in de Stedenbouw en Ruimtelijke Planning Sint-Lucas te Gent (2005-2009)
+    
+    STIJN DE ROUCK (°1978)
+    Architect - Hoger Architectuur Instituut Sint-Lucas Gent (1996-2001)
+    Stage bij Jo Crepain te Antwerpen (2001-2002)
+    Stage bij Jan De Cock te Brussel (2002-2003)
+    Medewerker bij Jan De Cock te Brussel (2003-2005)
+    Medewerker bij Architectenbureau Demo Naam te Gent (2008)
+    
+    THOMAS CATTRYSSE (°1987)?Ingenieur-architect - Universiteit Gent (2005-2011)
+    Medewerker bij Stéphane Beel Architecten & Xaveer De Geyter Architecten (SBXDG) te Gent (2010-2011)
+    Medewerker bij Architecture Workroom te Brussel (2011-2012)?Partner bij Lijnstad E19 (2010-heden)
+    Medewerker bij architectenbureau Demo Naam te Gent (2013-heden)
+    
+    ?JORIS KERREMANS (°1990) ?Ingenieur-architect - universiteit Gent (2008-2013)
+    Stage bij MikeViktorViktor Architecten te Antwerpen (2013-2014)
+    Medewerker bij Architectenbureau Demo Naam te Gent (2014-heden)
+    Vroegere medewerkers Sharon Bauwens, Michaël Callant, Dana Dée, Justine Huyghe, Sofie Marchand, Sietse Van Doorslaar, Marijn Vanhoutte, Stephanie Vercauteren
+- 
+  title: PUBLICATIE
+  description: |
+    BOEK
+    Kunst in opdracht 2006-2013, Uitg. Team Vlaams Bouwmeester, 2014
+    Open City: Desiging Coexistence’ Witman, Bob, catalogus IABR, 2009
+    Jonge architecten in Vlaanderen. Vandermarliere, Katrien en Van Synghel, Koen (red.), Gent, Ludion, 2001
+    Op het ritme v/d stad. De verbouwing v/d Beursschouwburg. Wambacq, J. (red.), Brugge, Die Keure, 1998
+    
+    KRANT/TIJDSCHRIFT
+    Bulckaert, Wouter, “De school van de toekomst is de school van nu”. Klasse voor Leraren244 -  2014
+    Van Synghel, Koen, 'Voorbij het spektakel - AHA architectuur'. De Standaard, 82 (2005) 229
+    Van Synghel, Koen, 'Een eerlijke Turkse winkel'. De Standaard, 79 (2002) 299
+    Scalbert, Irénée, ‘The difficulty of being pragmatic’, Openingslezing, De Singel, Antwerp, 28.09.01
+    Sioen, Lieven, ‘Lelijk Vlaanderen als inspiratiebron'. De Standaard Magazine, 9 (2001) 40
+    Rodermond, Janny, ‘Hoe stilzwijgend is de Vlaamse architectuur?'. De Architect, 32 (2001) 11
+    Kloosterboer, Saskia, ‘De dingen zijn de enige verborgen zin der dingen'. A+, 32 (2001) 172
+    Dubois, Marc, ‘Jonge architecten in Vlaanderen - Nieuwe generatie architecten'. Knack, 31 (2001)
+    43?Dobbelaere, Danny, ‘Ode aan ongewone banaliteit'. Tertio, 2 (2001) 91
+    TENTOONSTELLINGEN
+    Open City - Parallel Cases. NAI, Rotterdam-Heijplaat, 2009
+    Jonge architecten in Vlaanderen. Internationaal Kunsten Centrum deSingel in Antwerpen, 2001
+    Bravoure, Belgische inzending voor de Architectuurbiennale van Venetië, 2016
+- 
+  title: SAMENWERKING
+  description: |
+    ARCHITECTEN
+    Collectief Noord, Antwerpen
+    Els Claessens en Tania Vandenbussche architecten Gafpa , Gent
+    Geurst & Schulze Architecten, Den Haag
+    ir. architect Peter Geldof, Gent
+    Sileghem & Partners, Zwevegem
+    Urbain architectencollectief, Gent
+    
+    KUNSTENAAR
+    Philip Aguirre y Otegui, Antwerpen
+    Sabien Clement, Gent
+    Jan & Randoald, Gent
+    Jos Devriendt, Gent
+    Ante Timmermans, Gent
+    Dirk Zoete, Gent
+    
+    LANDSCHAPSARCHITECT
+    Cluster landschap+stedenbouw, Antwerpen
+    Dirk Vandekerkhove Landschapsarchitecten, Mariakerke
+    Leen Vanthuyne, Gent
+    
+    INGENIEUR STABILITEIT
+    
+    Sileghem & Partners, Zwevegem
+    Dexco / Stedec, Roeselare
+    
+    INGENIEUR TECHNIEKEN
+    
+    Tech3 Teken- & Studiebureau, Gent
+    Studiebureau Partners nv, Gent
